@@ -5,7 +5,7 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: Heart Rate
+      app_store_connect: Ai_pulse
 
     environment:
       groups:
