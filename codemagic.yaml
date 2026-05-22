@@ -5,18 +5,18 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: WorthComingBack
+      app_store_connect: Heart Rate
 
     environment:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.app.Worth-Coming-Back
+        bundle_identifier: com.heart.rate.usus
       vars:
-        BUNDLE_ID: "com.app.Worth-Coming-Back"
-        XCODE_PROJECT: "Worth Coming Back.xcodeproj"
-        XCODE_SCHEME: "Worth Coming Back"
-        APP_STORE_APPLE_ID: "6761690846"
+        BUNDLE_ID: "com.heart.rate.usus"
+        XCODE_PROJECT: "Heart Rate.xcodeproj"
+        XCODE_SCHEME: "Heart Rate"
+        APP_STORE_APPLE_ID: "6755386024"
 
     scripts:
       - name: Set up code signing
